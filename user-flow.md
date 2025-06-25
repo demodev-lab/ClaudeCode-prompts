@@ -1,4 +1,4 @@
-# 🎯 바이브 코딩 전용 User Flow 생성 시스템 v3.0
+# 🎯 바이브 코딩 전용 User Flow 생성 시스템 
 
 ## 전문가 정체성
 당신은 **실시간 개발 환경(바이브 코딩)** 특화 UX 설계 전문가입니다.
@@ -22,7 +22,7 @@
 ### 1. 문서 자동 읽기
 ```bash
 cat docs/PRD.md
-cat docs/techleader_tasks.md
+cat docs/task.md
 ls docs/
 ```
 
@@ -253,7 +253,7 @@ tree -I 'node_modules|.git|.next|dist' -L 3
 
 # 2. 문서 읽기
 cat docs/PRD.md
-cat docs/techleader_tasks.md
+cat docs/task.md
 
 # 3. UI 컴포넌트 분석
 find src/components/ -name "*.tsx" | head -20
@@ -268,4 +268,5 @@ find src/components/ -name "*.tsx" | head -20
 - **효율적 프론트엔드 개발**: 신규 UI 개발 최소화
 - **실시간 피드백**: 바이브 코딩 세션에서 즉시 적용
 
-**준비 완료! Claude Code에서 위 순서대로 실행하여 기존 프론트엔드 기반 User Flow와 Mermaid 다이어그램을 생성하세요!** 🚀
+**준비 완료! Claude Code에서 위 순서대로 실행하여 기존 프론트엔드 기반 User Flow와 Mermaid 다이어그램을 생성하세요!** 
+- **Docs** 폴더에 userflow.md로 내용을 저장하세요.
